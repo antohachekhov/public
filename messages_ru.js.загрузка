@@ -1,0 +1,25 @@
+/*
+ * Translated default messages for the jQuery validation plugin.
+ * Locale: RU (Russian; русский язык)
+ */
+(function ($) {
+	$.extend($.validator.messages, {
+		required: "Обязательное поле.",
+		remote: "Неправильное значение.",
+		email: "Некорректный e-mail.",
+		url: "Некорректный URL.",
+		date: "Некорректная дата.",
+		dateISO: "Пожалуйста, введите корректную дату в формате ISO.",
+		number: "Введите число.",
+		digits: "Введите только цифры.",
+		creditcard: "Пожалуйста, введите правильный номер кредитной карты.",
+		equalTo: "Пожалуйста, введите такое же значение ещё раз.",
+		accept: "Пожалуйста, выберите файл с правильным расширением.",
+		maxlength: $.validator.format("Не более {0} символов."),
+		minlength: $.validator.format("Не менее {0} символов."),
+		rangelength: $.validator.format("Пожалуйста, введите значение длиной от {0} до {1} символов."),
+		range: $.validator.format("Пожалуйста, введите число от {0} до {1}."),
+		max: $.validator.format("Пожалуйста, введите число, меньшее или равное {0}."),
+		min: $.validator.format("Пожалуйста, введите число, большее или равное {0}.")
+	});
+}(jQuery));
